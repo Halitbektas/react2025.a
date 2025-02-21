@@ -5,9 +5,6 @@ function ExpenseList({ date, amount, title }) {
     const day = date.toLocaleDateString("en-US", { month: "2-digit" });
     const year = date.getFullYear();
 
-    const expenseDate = new Date(2022, 2, 28);
-    const expenseTitle = "Car Insurance";
-    const expenseAmount = 294.67;
     return (
         <div className="expense-item">
             <div>
